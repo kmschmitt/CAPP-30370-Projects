@@ -1,0 +1,47 @@
+body	{
+		font-family: Geneva, sans-serif;
+		background-image: url(yellow_brick_road.png);
+		background-repeat: no-repeat;
+		background-position: top;
+		background-color: #EDC9AF;
+		}
+		
+h1		{
+		font-family: Georgia, serif;
+		text-align: center;
+		color: #347C17;
+		}
+		
+h2		{
+		font-family: Georgia; serif;
+		color: #562217; 
+		}
+		
+img		{
+		margin: 2em
+		border: solid 1em transparent;
+		max-width:100%;
+		}
+
+		
+@media screen and (min-width: 500px)
+									{
+									nav 	{
+									float: left; 
+									width: 20%%;
+									}
+		
+									main	{
+									float: right;
+									width:75%;
+									}
+									}
+@media screen and (min-width: 800px)
+									{
+									img		{
+									float: right;
+									Max-width: 40%;
+									margin: 2em;
+									border: solid 1em transparent;
+									}
+									}

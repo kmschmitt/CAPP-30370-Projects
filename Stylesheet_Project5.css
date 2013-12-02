@@ -1,0 +1,26 @@
+<style>
+body	{
+	font-family: Geneva, sans-serif;
+	background-image: url(http://subtlepatterns.com/dimension.png);
+	background-repeat: repeat-x;
+	background-position: left top; 	
+	}
+	
+h1, h2, h3 {
+		font-family: Georgia; serif;
+		color: #008000;
+		}
+		
+img	{border-style: solid;
+	border-color: #008000;
+	float:right;
+	border-radius: 2em;
+	box-shadow: 6px 6px #808080;
+	}
+	
+blockquote	{padding: 1em 3em 1em 3em;
+			background-color: linear-gradient(to bottom, pink, red);
+			
+	}
+	
+</style>

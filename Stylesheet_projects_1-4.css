@@ -1,0 +1,30 @@
+<style>
+body	{
+	font-family: Georgia;
+	}
+	
+h1	{
+	text-align: center;
+	font-family: Georgia;
+	font-weight: Bold;
+	color: #FAAFBE
+}
+
+h2	{
+	text align: left;
+	font-family: Georgia;
+	font-weight: normal;
+	color: #5FFB17
+	}
+	
+th, td	{
+		border:1px solid gray;
+		Text align: left
+		}
+figcaption	{
+			font-size:.75em;
+			color:C0C0C0;
+			text-align: center
+			}
+		
+</style>

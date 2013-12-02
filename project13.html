@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Katherine Schmitt Project 13</title>
+<style>
+#MouseEvents {
+background-color:#FAAFBE;
+height:200px;
+width:200px;
+}
+</style>
+</head>
+
+<body>
+<h1>One</h1>
+<button id="Alert">Alert</button>
+<script>
+	var Alert = document.getElementById('Alert');
+	Alert.addEventListener("click", function() {
+	alert('Thanks for clicking!');
+	console.log('I was clicked');
+	});
+</script>
+
+<h1>Two</h1>
+<button id="Prompt">Prompt</button>
+<script>
+	var Prompt = document.getElementById('Prompt');
+	Prompt.addEventListener("click", function() {
+	var name = prompt('What is your name?');
+	for (i = 0; i < 5; i++) {
+	console.log(name);
+	};
+});
+</script>
+<h1>Three</h1>
+<script>
+	var rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+	for ( var i = 0; i < rainbow.length; i++ ) { 
+	console.log(rainbow[i]); 
+	document.write(rainbow[i]+ '<br>');
+};
+</script>
+<h1>Four</h1>
+<div id="MouseEvents"></div>
+<script>
+var MouseEvents = document.getElementById('MouseEvents');
+MouseEvents.addEventListener("mouseover", function() {
+console.log('Mouse entered the box.');
+}); 
+MouseEvents.addEventListener("mouseout", function() {
+console.log('Mouse left the box.');
+});
+</script>
+
+<h1>Five</h1>
+<input type="text" id="first">
+<input type="text" id="second">
+<button id="Check">Check</button>
+<script>
+  var Check = document.getElementById('Check');
+  Check.addEventListener("click", function(){
+	var first = document.getElementById('first').value;
+  	var second = document.getElementById('second').value;
+  if(first == second){
+	alert('These are equal!');
+	console.log('true');
+  } 
+  else {
+  	alert('These are not equal!');
+	console.log('false');
+  }; 
+  });
+  
+</script>
+<script src="script.js"></script>
+
+</body>
+
+</html>

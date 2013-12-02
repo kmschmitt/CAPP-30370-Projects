@@ -1,0 +1,23 @@
+body	{
+		font-family: Geneva, sans-serif;
+		background-color: #FDEEF4;
+		color:#4CC552;
+		}
+		
+nav		{
+
+		}
+
+h1		{
+		font-family: Georgia, serif;
+		text-align: center;
+		color: #C12283;
+		}
+		
+h2		{
+		font-family: Georgia; serif;
+		color: #C12283; 
+		}
+footer	{
+		border-top:1px solid black;
+		}
